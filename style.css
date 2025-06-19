@@ -1,0 +1,396 @@
+body    {
+    background-color: grey;
+    background-image: url(shopping.jpg);
+    backdrop-filter: blur(5px);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 3400px;
+}
+.container{
+    position: absolute;
+}
+nav{
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    background-color: rgba(122, 122, 121, 0.9);
+    height: 70px;
+    width: 996px;
+    border-radius: 8px;
+}
+nav img{
+    position: absolute;
+    left: 20px;
+    width: 70px;
+    height: 70px;
+    border-radius: 50px;
+}
+nav input{
+    width: 250px;
+    height: 30px;
+    border-radius: 10px;
+    margin-left: 200px;
+    margin-top: 15px;
+}
+input:focus{
+    outline: none;
+}
+nav a{
+    text-decoration-line: none;
+    color: black;
+    gap: 10px;
+}
+nav a button{
+    position: relative;
+    left: 200px;
+}
+.ads{
+    position: absolute;
+    top: 80px;
+    left: 220px;
+}
+#ads{
+    position: absolute;
+    top: 520px;
+}
+.content{
+    background-image: url(2222.jpeg);
+    backdrop-filter: blur(5px);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    border: 1px solid black;
+    border-radius: 30px;
+    height: 250px;
+    width: 600px;
+    text-align: center;
+    left: 220px;
+    top: 80px;
+}
+.content p{
+    font-family: cursive;
+}
+.content button{
+    width: 100px;
+    height: 40px;
+    background: linear-gradient(to left, rgb(21, 21, 129), white);
+}
+.left{
+    /* border: 1px solid palevioletred; */
+    border-radius: 30px;
+    background-color: rgba(122, 122, 121, 0.5);
+    position: relative;
+    width: 200px;
+    height: 350px;
+    bottom: 250px;
+}
+.left ul{
+    list-style: none;
+}
+.left li a{
+    text-decoration: none;
+    color: aliceblue;
+}
+#deals{
+    position: relative;
+    bottom: 230px;
+}
+.center{
+    position: relative;
+    /* border: 1px solid green; */
+    width: 900px;
+    height: 2800px;
+    left: 48px;
+    bottom: 190px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+.card{
+    /* border: 1px solid orangered; */
+    background-color: rgba(252, 252, 250, 0.5);
+    position: relative;
+    width: 190px;
+    height: 290px;
+    top: 50px;
+    left: 18px;
+    border-radius: 30px;
+    text-align: center;
+}
+.card a{
+    text-decoration: none;
+    color: black;
+}
+
+.bottom{
+    background-image: url();
+    position: relative;
+    border: 1px solid darkorange;
+    text-align: center;
+    width: 990px;
+    height: 300px;
+    bottom: 100px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+.first{
+    position: relative;
+    /* border: 1px solid palevioletred; */
+    left: 20px;
+}
+.first p{
+    position: relative;
+    color: black;
+    top: 20px;
+}
+.first a{
+    color: blue;
+    text-decoration-line: none;
+}
+.second p{
+    position: relative;
+    color: black;
+    top: 20px;
+}
+.second a{
+    color: blue;
+    text-decoration-line: none;
+}
+.third a{
+    position: relative;
+    top: 50px;
+}
+.fourth p{
+    position: relative;
+    color: black;
+    top: 20px;
+}
+.fourth a{
+    position: relative;
+    color: blue;
+    top: 20px;
+    text-decoration-line: none;   
+}
+footer p{
+    position: relative;
+    color: black;
+    left: 150px;
+    top: 80px;
+}
+
+
+/* media query */
+@media only screen and (max-width: 600px) {
+    body    {
+    background-color: grey;
+    background-image: url(shopping.jpg);
+    backdrop-filter: blur(5px);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 5950px;
+}
+nav{
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    background-color: rgba(122, 122, 121, 0.9);
+    height: 70px;
+    width: 570px;
+    border-radius: 8px;
+}
+nav img{
+    position: absolute;
+    left: 20px;
+    width: 30px;
+    height: 30px;
+    border-radius: 50px;
+}
+nav input{
+    width: 200px;
+    height: 30px;
+    border-radius: 10px;
+    margin-left: 60px;
+    margin-top: 15px;
+}
+input:focus{
+    outline: none;
+}
+nav a{
+    text-decoration-line: none;
+    color: black;
+    gap: 10px;
+}
+nav a button{
+    position: absolute;
+    left: 500px;
+    top: 5px;
+}
+#down{
+    position: absolute;
+    top: 30px;
+    right: 300px;
+    width: 50px;
+}
+.ads{
+    position: absolute;
+    width: 500px;
+    top: 72px;
+    left: 23px;
+}
+.ads img{
+    width: 515px;
+}
+#ads img{
+    position: absolute;
+    top: 70px;
+    left: 5px;
+    height: 50px;
+    width: 555px;
+}
+.content{
+    background-image: url(2222.jpeg);
+    backdrop-filter: blur(5px);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    border: 1px solid black;
+    border-radius: 30px;
+    height: 220px;
+    width: 530px;
+    text-align: center;
+    left: 22px;
+    top: 260px;
+}
+.content p{
+    font-family: cursive;
+}
+.content button{
+    width: 100px;
+    height: 40px;
+    background: linear-gradient(to left, rgb(21, 21, 129), white);
+}
+.left{
+    /* border: 1px solid palevioletred; */
+    border-radius: 30px;
+    background-color: rgba(122, 122, 121, 0.5);
+    position: relative;
+    width: 350px;
+    height: 200px;
+    bottom: 250px;
+    left: 120px;
+    margin-top: 80px;
+    text-align: center;
+}
+.left li a{
+    text-decoration: none;
+    color: aliceblue;
+}
+#deals{
+    position: relative;
+    bottom: 40px;
+}
+.center{
+    position: relative;
+    border: 1px solid green;
+    width: 530px;
+    height: 5300px;
+    left: 18px;
+    top: 5px;
+    bottom: 50px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+.card{
+    border: 1px solid orangered;
+    background-color: rgba(252, 252, 250, 0.5);
+    position: relative;
+    width: 190px;
+    height: 290px;
+    top: 30px;
+    left: 35px;
+    border-radius: 30px;
+    text-align: center;
+}
+.card a{
+    text-decoration: none;
+    color: black;
+}
+.bottom{
+    background-image: url();
+    position: relative;
+    border: 1px solid darkorange;
+    text-align: center;
+    width: 560px;
+    height: 450px;
+    bottom: 7px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+.first{
+    position: relative;
+    /* border: 1px solid palevioletred; */
+    left: 20px;
+}
+.first p{
+    position: relative;
+    color: black;
+    top: 20px;
+}
+.first a{
+    color: blue;
+    text-decoration-line: none;
+}
+.second p{
+    position: relative;
+    color: black;
+    top: 20px;
+}
+.second a{
+    color: blue;
+    text-decoration-line: none;
+}
+.third a{
+    position: relative;
+    top: 50px;
+}
+.fourth p{
+    position: relative;
+    color: black;
+    top: 20px;
+}
+.fourth a{
+    position: relative;
+    color: blue;
+    top: 20px;
+    text-decoration-line: none;   
+}
+footer p{
+    position: absolute;
+    color: black;
+    right: 90px;
+    top: 450px;
+}
+    
+}
+
+@media only screen and (min-width: 601px) and (max-width: 768px) {
+/* body    {
+    background-color: grey;
+    background-image: url(shopping.jpg);
+    backdrop-filter: blur(5px);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 3400px; */
+}
+}
+
+@media only screen and (min-width: 769px) and (max-width: 992px) {
+    
+}
+
+@media only screen and (min-width: 993px) and (max-width: 1200px) {
+    
+}
+
+@media only screen and (min-width: 1201px) {
+    
+}

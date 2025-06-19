@@ -1,0 +1,70 @@
+body    {
+    background-color: grey;
+    background-image: url(shopping.jpg);
+    backdrop-filter: blur(5px);
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* height: 3400px; */
+}
+.container{
+    position: absolute;
+}
+nav{
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    background-color: rgba(122, 122, 121, 0.9);
+    height: 70px;
+    width: 996px;
+    border-radius: 8px;
+}
+nav input{
+    width: 250px;
+    height: 30px;
+    border-radius: 10px;
+    margin-left: 200px;
+    margin-top: 15px;
+}
+input:focus{
+    outline: none;
+}
+nav a{
+    text-decoration-line: none;
+    color: black;
+    gap: 10px;
+}
+nav a button{
+    position: relative;
+    left: 200px;
+}
+form{
+    position: relative;
+    border: 2px solid black;
+    width: 350px;
+    background-color: rgba(172, 172, 171, 0.5);
+    height: 530px;
+    text-align: center;
+    left: 320px;
+    top: 25px;
+    border-radius: 30px;
+}
+form p{
+    position: relative;
+    top: 20px;
+}
+form input{
+    margin-top: 30px;
+    width: 250px;
+    height: 30px;
+    border-radius: 30px;
+}
+form a{
+    position: relative;
+    top: 30px;
+    text-decoration: none;
+    border: 1px solid;
+    color: black;
+}
+form input:focus{
+    outline: none;
+}
